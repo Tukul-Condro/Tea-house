@@ -10,7 +10,7 @@
     <!-- font awesome cdn -->
     <script src="https://kit.fontawesome.com/1f6f248400.js" crossorigin="anonymous"></script>
     <!-- tailwind cdn -->
-    <script src="https://kit.fontawesome.com/1f6f248400.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- tailwind script  -->
     <script>
         tailwind.config = {
@@ -27,6 +27,60 @@
     <title>Tea-house</title>
 </head>
 <body>
-    
+    <!-- main content  -->
+    <main class="max-w-[1100px]  mx-auto pt-12 px-10">
+        <!-- header section  -->
+      <header class="lg:flex px-5 mb-8">
+        <div>
+            <h1 class="font-extrabold text-6xl mb-5">It's good <br> tea time at The <br>Tea House</h1>
+                <p class="text-stone-500 font-medium text-lg mb-4" >Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-4 rounded-lg text-white  font-bold ">Explore More <i class="fa-solid fa-arrow-right ml-2 text-xl -rotate-45"></i></button>
+                    
+        </div>
+        <div class="relative mt-5">
+            <img src="images/banner.png" alt="">
+            <div>
+                <div class= "flex border-slate-700 w-52 items-center justify-center gap-3 bg-white shadow-md absolute ml-20 -mt-16 py-3  rounded-xl">
+                    <i class="fa-solid fa-star text-orange-400 text-2xl"></i>
+                    <div class="">
+                      <p class="font-extrabold text-3xl">5.00</p>
+                    <p class= "font-semibold text-stone-500">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </header>
+      <!-- Our Featured Products -->
+      <section class="py-8 lg:py-20">
+        <div class="text-center pb-8">
+          <h1 class="font-extrabold text-4xl mb-4">Our Featured Products</h1>
+          <p class="text-stone-500 mx-auto max-w-3xl mb-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        </div>
+        <!-- tea content  -->
+        <div class="lg:grid grid-cols-4 gap-5 text-center">
+          <div class="bg-slate-100 rounded-xl shadow-md overflow-hidden mt-5">
+            <img class="mx-14 my-7" src="images/tea-1.png" alt="">
+            <p class="font-extrabold text-2xl pb-4">Green Tea</p>
+            <p class="text-stone-400 font-semibold pb-3">Creamer could be <br>replaced by fresh milk</p>
+          </div>
+          <div class="bg-slate-100 rounded-xl shadow-md overflow-hidden mt-5">
+            <img class="mx-14 my-7" src="images/tea-2.png" alt="">
+            <p class="font-extrabold text-2xl pb-4">Milk Tea</p>
+            <p class="text-stone-400 font-semibold pb-3">Creamer could be <br>replaced by fresh milk</p>
+          </div>
+          <div class="bg-slate-100 rounded-xl shadow-md overflow-hidden mt-5">
+            <img class="mx-14 my-7" src="images/tea-3.png" alt="">
+            <p class="font-extrabold text-2xl pb-4">Black Tea</p>
+            <p class="text-stone-400 font-semibold pb-3">Creamer could be <br>replaced by fresh milk</p>
+          </div>
+          <div class="bg-slate-100 rounded-xl shadow-md overflow-hidden mt-5">
+            <img class="mx-14 my-7" src="images/tea-4.png" alt="">
+            <p class="font-extrabold text-2xl pb-4">Lemon TEa</p>
+            <p class="text-stone-400 font-semibold pb-3">Creamer could be <br>replaced by fresh milk</p>
+          </div>
+        </div>
+      </section>
+      
+    </main>
 </body>
 </html>
